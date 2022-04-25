@@ -1,6 +1,6 @@
 ally-xml-parser
 
-### Preview the parser <a href="https://charming-frangipane-96e371.netlify.app" target="_blank">HERE</a>
+### Preview the parser [HERE](https://charming-frangipane-96e371.netlify.app){:target="_blank"}
 ===============
 
 - rateArray.js - This is where you set the product nodes.
