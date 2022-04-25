@@ -1,0 +1,353 @@
+<products>
+<product key="CD" code="CD" label="High Yield" type="CD">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="CD-3" label="3-Month term" term="3M" termNumber="3" default="50000">
+<rate min="0" max="499.99">
+<apy>0.30</apy>
+<apr>0.30</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>0.30</apy>
+<apr>0.30</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>0.30</apy>
+<apr>0.30</apr>
+</rate>
+</term>
+<term id="CD-6" label="6-Month term" term="6M" termNumber="6" default="50000">
+<rate min="0" max="499.99">
+<apy>0.60</apy>
+<apr>0.60</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>0.60</apy>
+<apr>0.60</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>0.60</apy>
+<apr>0.60</apr>
+</rate>
+</term>
+<term id="CD-9" label="9-Month term" term="9M" termNumber="9" default="50000">
+<rate min="0" max="499.99">
+<apy>0.64</apy>
+<apr>0.64</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>0.64</apy>
+<apr>0.64</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>0.64</apy>
+<apr>0.64</apr>
+</rate>
+</term>
+<term id="CD-12" label="12-Month term" term="12M" termNumber="12" default="50000">
+<rate min="0" max="499.99">
+<apy>1.05</apy>
+<apr>1.04</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.05</apy>
+<apr>1.04</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>test</apy>
+<apr>1.04</apr>
+</rate>
+</term>
+<term id="CD-18" label="18-Month term" term="18M" termNumber="18" default="50000">
+<rate min="0" max="499.99">
+<apy>1.19</apy>
+<apr>1.18</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.19</apy>
+<apr>1.18</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.19</apy>
+<apr>1.18</apr>
+</rate>
+</term>
+<term id="CD-36" label="3-Year term" term="36M" termNumber="36" default="50000">
+<rate min="0" max="499.99">
+<apy>1.50</apy>
+<apr>1.49</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.50</apy>
+<apr>1.49</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.50</apy>
+<apr>1.49</apr>
+</rate>
+</term>
+<term id="CD-60" label="5-Year term" term="60M" termNumber="60" default="50000">
+<rate min="0" max="499.99">
+<apy>2.00</apy>
+<apr>1.98</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>2.00</apy>
+<apr>1.98</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>2.00</apy>
+<apr>1.98</apr>
+</rate>
+</term>
+</product>
+<product key="CDRYR" code="CD" label="Raise Your Rate" type="CD">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="CD-24" label="2-Year term" term="24M" termNumber="24" default="50000">
+<rate min="0" max="499.99">
+<apy>1.29</apy>
+<apr>1.28</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.29</apy>
+<apr>1.28</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.29</apy>
+<apr>1.28</apr>
+</rate>
+</term>
+<term id="CD-48" label="4-Year term" term="48M" termNumber="48" default="50000">
+<rate min="0" max="499.99">
+<apy>1.40</apy>
+<apr>1.39</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.40</apy>
+<apr>1.39</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.40</apy>
+<apr>1.39</apr>
+</rate>
+</term>
+</product>
+<product key="IRAHY" code="IRAHY" label="IRA High Yield" type="CD">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="IRAHY-3" label="3-Month term" term="3M" termNumber="3" default="50000">
+<rate min="0" max="499.99">
+<apy>0.30</apy>
+<apr>0.30</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>0.30</apy>
+<apr>0.30</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>0.30</apy>
+<apr>0.30</apr>
+</rate>
+</term>
+<term id="IRAHY-6" label="6-Month term" term="6M" termNumber="6" default="50000">
+<rate min="0" max="499.99">
+<apy>0.60</apy>
+<apr>0.60</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>0.60</apy>
+<apr>0.60</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>0.60</apy>
+<apr>0.60</apr>
+</rate>
+</term>
+<term id="IRAHY-9" label="9-Month term" term="9M" termNumber="9" default="50000">
+<rate min="0" max="499.99">
+<apy>0.64</apy>
+<apr>0.64</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>0.64</apy>
+<apr>0.64</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>0.64</apy>
+<apr>0.64</apr>
+</rate>
+</term>
+<term id="IRAHY-12" label="12-Month term" term="12M" termNumber="12" default="50000">
+<rate min="0" max="499.99">
+<apy>1.05</apy>
+<apr>1.04</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.05</apy>
+<apr>1.04</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.05</apy>
+<apr>1.04</apr>
+</rate>
+</term>
+<term id="IRAHY-18" label="18-Month term" term="18M" termNumber="18" default="50000">
+<rate min="0" max="499.99">
+<apy>1.19</apy>
+<apr>1.18</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.19</apy>
+<apr>1.18</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.19</apy>
+<apr>1.18</apr>
+</rate>
+</term>
+<term id="IRAHY-36" label="3-Year term" term="36M" termNumber="36" default="50000">
+<rate min="0" max="499.99">
+<apy>1.50</apy>
+<apr>1.49</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.50</apy>
+<apr>1.49</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.50</apy>
+<apr>1.49</apr>
+</rate>
+</term>
+<term id="IRAHY-60" label="5-Year term" term="60M" termNumber="60" default="50000">
+<rate min="0" max="499.99">
+<apy>2.00</apy>
+<apr>1.98</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>2.00</apy>
+<apr>1.98</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>2.00</apy>
+<apr>1.98</apr>
+</rate>
+</term>
+</product>
+<product key="IRARYR" code="IRARYR" label="IRA Raise Your Rate" type="CD">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="IRARYR-24" label="2-Year term" term="24M" termNumber="24" default="50000">
+<rate min="0" max="499.99">
+<apy>1.29</apy>
+<apr>1.28</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.29</apy>
+<apr>1.28</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.29</apy>
+<apr>1.28</apr>
+</rate>
+</term>
+<term id="IRARYR-48" label="4-Year term" term="48M" termNumber="48" default="50000">
+<rate min="0" max="499.99">
+<apy>1.40</apy>
+<apr>1.39</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>1.40</apy>
+<apr>1.39</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>1.40</apy>
+<apr>1.39</apr>
+</rate>
+</term>
+</product>
+<product key="IRAOSA" code="IRAOSA" label="IRA Online Savings" type="Account">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="IRAOSA-0" label="All" term="0M" termNumber="0" default="50000">
+<rate min="0" max="9.9999999999E8">
+<apy>1.00</apy>
+<apr>1.00</apr>
+</rate>
+</term>
+</product>
+<product key="MMDA" code="MMDA" label="Money Market" type="Account">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="MMDA-0" label="" term="0M" termNumber="0" default="50000">
+<rate min="0" max="24999.99">
+<apy>0.85</apy>
+<apr>0.85</apr>
+</rate>
+<rate min="25000" max="99999.99">
+<apy>0.85</apy>
+<apr>0.85</apr>
+</rate>
+<rate min="100000" max="9.9999999999E8">
+<apy>0.85</apy>
+<apr>0.85</apr>
+</rate>
+</term>
+</product>
+<product key="OSAV" code="OSAV" label="Online Savings" type="Account">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="OSAV-0" label="" term="0M" termNumber="0" default="50000">
+<rate min="0" max="24999.99">
+<apy>1.00</apy>
+<apr>1.00</apr>
+</rate>
+<rate min="25000" max="99999.99">
+<apy>1.00</apy>
+<apr>1.00</apr>
+</rate>
+<rate min="100000" max="9.9999999999E8">
+<apy>1.00</apy>
+<apr>1.00</apr>
+</rate>
+</term>
+</product>
+<product key="NCD" code="NCD" label="No Penalty" type="CD">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="NCD-11" label="11-Month term" term="11M" termNumber="11" default="50000">
+<rate min="0" max="499.99">
+<apy>0.87</apy>
+<apr>0.87</apr>
+</rate>
+<rate min="500" max="4999.99">
+<apy>0.87</apy>
+<apr>0.87</apr>
+</rate>
+<rate min="5000" max="9.9999999999E8">
+<apy>0.87</apy>
+<apr>0.87</apr>
+</rate>
+</term>
+</product>
+<product key="DDA" code="DDA" label="Interest Checking" type="Account">
+<effectiveDate>2015-09-25 00:00:00.0</effectiveDate>
+<bankName>Ally</bankName>
+<term id="DDA-0-15000" label="$15,000.00 or more" term="0M" termNumber="0" default="15000">
+<rate min="15000" max="9.9999999999E8">
+<apy>0.60</apy>
+<apr>0.60</apr>
+</rate>
+</term>
+<term id="DDA-0-0" label="Less than $15,000.00" term="0M" termNumber="0" default="0">
+<rate min="0" max="14999.99">
+<apy>0.10</apy>
+<apr>0.10</apr>
+</rate>
+</term>
+</product>
+<cache-data>
+1-AC3JDU-12783-HC-232-TT53-35DI9-77DD-SKFDI-78632-YYD53-SJDO-7893168J-67KUH-D7YS0-LD7SJ-DNHT-SIC7VY-DJSE93-7DYTSH-WO4DC-YEH3OG-9C7TG2J-2L4O5F9-D8SJK3-O40FI8D-USH-WJ3K4-O5089F7-DSSH3-4ORF9D-7SGHE-HDKS-OE947-RBJ9C8-W3HM-TO0C8-W4HNLP-H0CKW-LEPPG-09A8QY-2HN2K-D0D83-75YY-LCD0-W87HT-JYGFD9-874HJ5-KTLHG-V9CUY-H4J5GLOF-98EN5-MKLG-O9F-8D7SY-WGB4N-5MKYL-HO9B8-V7C6DT-FWV3B4N-5MKYHO-B8VTS-FWVB3-N4M5-KLOH9-8B7V6C-D78E9O4L-K5-M6N-5K43O-WS9D8-CVBGH-TJ5489-EOD-KMF-NGH-YT786-5940P-3ELKDJ-FUG8-90YP65-L4K3JU-W8E9-D0FGPT-YLI65RE-DPOF-V87YRE-H43J-K4I9T8-YH7G-6TFDNJ-34IT87-GYFHJ-K45OT9-Y8H7GYF-HD4O5T-9Y8G-UYDBE-NMO50-T9Y8-G7FDE-NJ3O59-T8G7F-YDHEJ-K3LO5-1-AC3JDU-12783-HC-232-TT53-35DI9-77DD-SKFDI-78632-YYD53-SJDO-7893168J-67KUH-D7YS0-LD7SJ-DNHT-SIC7VY-DJSE93-7DYTSH-WO4DC-YEH3OG-9C7TG2J-2L4O5F9-D8SJK3-O40FI8D-USH-WJ3K4-O5089F7-DSSH3-4ORF9D-7SGHE-HDKS-OE947-RBJ9C8-W3HM-TO0C8-W4HNLP-H0CKW-LEPPG-09A8QY-2HN2K-D0D83-75YY-LCD0-W87HT-JYGFD9-874HJ5-KTLHG-V9CUY-H4J5GLOF-98EN5-MKLG-O9F-8D7SY-WGB4N-5MKYL-HO9B8-V7C6DT-FWV3B4N-5MKYHO-B8VTS-FWVB3-N4M5-KLOH9-8B7V6C-D78E9O4L-K5-M6N-5K43O-WS9D8-CVBGH-TJ5489-EOD-KMF-NGH-YT786-5940P-3ELKDJ-FUG8-90YP65-L4K3JU-W8E9-D0FGPT-YLI65RE-DPOF-V87YRE-H43J-K4I9T8-YH7G-6TFDNJ-34IT87-GYFHJ-K45OT9-Y8H7GYF-HD4O5T-9Y8G-UYDBE-NMO50-T9Y8-G7FDE-NJ3O59-T8G7F-YDHEJ-K3LO5-QVSFP-6SVOB-7GXO3-DBPXY-L2SLV-UXC3M-1ZKKD-K724T-CM3OC-17PI6-QGV3V-GSUYB-JB31K-WBSJK-RZASL-9GUXO-Q2X70-9EA50-NNKSK-8MILS-1VCI0-QY47T-G0ZKZ-Z78O4-RELGU-8H8AI-NK7OJ-IMKNW-GRUNQ-0JDUG-UTSYQ-N8J9P-C3E86-XLTLE-H9UUJ-ERY9A-83D17-V9B5U-QGT8J-6EAO2-IJACV-JHCS9-FY0W9-6OW5Y-9I1RB-CD42G-ZCY0K-TERZD-WGTIF-K4HVU-0XP3Q-25EE8-ECJQO-W798E-IY56Y-3Q58U-MOGUJ-AAN05-XU3A5-LY1KG-WUTBU-L87JO-LMGY4-P36G7-M3796-LDFCW-A93SS-GJ0Q7-8VRGX-BPATW-ZG4RM-2780F-O3U13-3H080-4G1KY-5KBCK-5GVAB-82V1V-34R7C-K4ITL-Y4S2N-MYZGO-SQP4W-P9ALR-EQ5MS-1PBMW-4U9TB-IY4NP-Q5GKX-L8AO1-JTFQF-UKZC8-VT5J8-FYUQ0-S1U51-9Y7WM-Z8PCC-KJL4I-KZ6PE-2F3LH-ZHOE7-6SNQG-1YSE8-5PCI0-LT2QG-JVJPR-HE09L-3S9NG-QLQOT-JJ54G-ZWL0B-VTKIS-IUGSH-3XA17-WGCTF-3BYPG-O1W8W-3AH2R-M35AS-VYCOM-J8I36-9XAHN-Q8K9J-95LZ8-HLQD8-OZ48E-CAUUA-M2BTM-PJNJP-KNRFM-BJQXQ-E866D-62MRO-JKPNF-IEF6U-LHI1V-QAMPW-RYYGK-ZXLS0-C5WF1-B84A3-D1CTJ-AUUA1-76P9E-SRN99-7TMRA-BBERR-NXYUF-TJ3FZ-WO9QI-FUKJK-G20W3-KJCFQ-RXBC0-QB1HY-2D1RL-APBBH-D55P3-CFA5Y-LS5O4-MZ6J8-GKP83-FKFFD-P3RZ5-WKOXR-LTHIC-KQ6US-EC2GA-DY5AR-R2SPJ-CCY4T-F27EP-6EHQB-52RVX-YX3EK-AUJK1-XTKJV-0ROGK-WTFTM-ZQFEE-ZA9N4-5GIVG-7R27O-IWKTT-S33P4-JC98M-QD9IV-W3908-YD524-29CL9-HUKLK-IIECK-4AEM5-PL5N6-1M1T7-M05UZ-UIMDP-V1Z9I-SBMIK-XZ65E-K4AEW-NEK25-C47Y6-WJAIN-42OUS-0OI2C-6P392-F60D7-X3602-9GZDT-ZX2II-B8D9I-BQPQX-MTONU-ZHPTU-PBM3H-HXK8Q-CPFJ8-AS5TV-PFS66-S9G6J-9MQII-NY934-7W4UC-DLSVL-AHW2G-G2K9Z-IT4Y7-JTBP7-0MSMB-N7RAK-BV4M4-7XGPP-O0ZJY-A2UV5-7D4WE-6QFHA-JO40Z-3JAWS-892VP-6FTBK-YPO3Z-MGR0J-2JYID-KCVMR-3VN8B-ATLKI-HTCK6-K9W2M-TRLQQ-DQICJ-8BIO6-V4JYI-OSE71-1DWJR-MC29C-5LKHS-QAY3C-NRJ3V-KPQJS-LCPQ6-NQK82-9U86X-4TMDN-MW4XI-OW7T2-M3D7F-URHA0-5MYF0-PENWY-3NO95-IBFOG-GX11B-2YXZ8-G6PF5-8PBWS-BFNFQ-HENK1-96KKH-W3BDG-RTYZW-Y1TM7-YSGVC-HS1M1-X8HHC-U9QIA-8DWM6-0LIC5-SAKAM-6O8Z2-JXZ5M-1W3XX-2R1OF-IIG1U-8SDW7-8VW4P-68FK8-174R3-AN5D5-JWX2Q-4
+</cache-data>
+</products>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Multi Value Test</title>
+	<style type="text/css">
+ /* <script type="text/javascript"> 
+  var clickTag = "http://www.google.com"; 
+  </script> */
+
+@font-face{
+	font-family:AllyBenton;
+	src:url("fonts/allybentonrates-bold-webfont.eot"); 
+	src:url("fonts/allybentonrates-bold-webfont.eot!#iefix") format("embedded-opentype"), 
+url("fonts/allybentonrates-bold-webfont.woff") format("woff"), 
+url("fonts/allybentonrates-bold-webfont.ttf") format("truetype");
+	font-weight:normal;
+	}
+
+#rate_container {
+	display:block;
+	
+	position:absolute;
+	/*top:165px;
+	*/
+	left:365px;
+	color:#650360;
+	font-family:inherit;
+	opacity:0;
+}
+
+
+
+
+span {
+	margin:0;
+	padding:0;
+}
+
+.rate {
+	float:left;
+	line-height:1em;
+	font-size:60px;
+	left: 5px;
+	letter-spacing: -1px;
+	font-family:AllyBenton,sans-serif;
+	margin:0;
+	padding:0;
+	position: absolute;
+	width: 350px;
+}
+#darate0 {
+	top: 96px;
+}
+#darate1 {
+	top: 190px;
+}
+#darate2 {
+	top: 287px;
+}
+
+.percentAPY {
+	display:inline-block;
+	width:80px;
+	height:50px;
+	position: relative;
+	top: 5px;
+	left: 2px;
+	
+}
+
+
+#fallback {
+	position:absolute;
+	top:250px;
+	left:2px;
+	display: none;
+	
+}
+
+
+   .container {
+	border:1px solid #666666;
+	position: relative;
+	width: 798px;
+	height: 498px;
+	top: 0px;
+	left: 0px;
+	overflow:hidden;
+	
+	/*display:none;*/
+	
+    }
+	.bg{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+	top: 0px;
+	left: 0px;
+   }
+   #ctaBtn{
+	
+	position: absolute;
+	left:125px;
+	top:378px;
+	opacity:1;
+	display: none;
+
+		}
+	
+		
+	#product{
+	
+	position: absolute;
+	left:388px;
+	top:200px;
+		}
+		
+	#fdic{
+	
+	position: absolute;
+	left:29px;
+	top:28px;
+		}
+		
+	#logoAlly{
+	
+	position: absolute;
+	left:390px;
+	top:375px;
+		}
+		
+	#clickSpace {
+  background-color: rgba(255,255,255,0);
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+ 
+}
+
+	</style>
+</head>
+<body>
+
+<div class="container" id="container" width="800" height="500" style="display:none">
+          <div class="bg"><img src="images/bg.jpg" width="800" height="500"></div>
+<!--          <div id="fdic"><img src="images/fdic.png" width="64" height="40"></div>
+          <div id="logoAlly"><img src="images/logoAlly.png" width="238" height="73"></div> 
+           <div id="product"><img src="images/productName.png" width="356" height="146"></div>
+           
+          <div id="ctaBtn"><img src="images/ctaBtn.jpg" width="156" height="52"> </div>-->
+          
+          <!--<div id="ctaEffMask" style="position:absolute; width:156px; height:52px; overflow:hidden; background-color:transparent;">
+	      <div id="ctaEff" style="position:absolute; width:33px; height:60px; overflow:hidden;"><img src="ctaEff.png" width="33" height="60"></div>
+         </div>-->
+      
+        
+         
+         <rate id="rate_container">
+            <span id="fallback" >
+            	<img src="images/txtGreatRates.png">
+            </span>
+            <div id='darate0' style="display:none" class="rate"><span></span><img src='images/percentAPY.png'  class="percentAPY"></div>
+            <div id='darate1' style="display:none" class="rate"><span></span><img src='images/percentAPY.png'  class="percentAPY"></div>
+            <div id='darate2' style="display:none" class="rate"><span></span><img src='images/percentAPY.png'  class="percentAPY"></div>
+            
+        </rate>
+        <!--
+         <rate class="rate_container" id="rate_container1">
+            <span id="fallback" >
+            	<img src="images/txtGreatRates.png">
+            </span>
+            <span id='darate1' style="display:none" class="rate"></span><img src='images/percentAPY.png' id='percentAPY1'  style="display:none" class="percentAPY">
+        </rate>-->
+ <a href="javascript:window.open(window.clickTag)"><div class="clickSpace" id="clickSpace"> </div></a>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+    window.onload = function()  {
+      var scriptIndex = 0;
+      var scriptArray = [ "js/rateArray.js","js/xmlParser.js","js/display.js","js/TweenLite.min.js","js/CSSPlugin.min.js"];
+      var oImg;
+	
+
+  function scriptReady() {
+
+        if (scriptIndex < scriptArray.length) {
+          loadScript(scriptArray[scriptIndex], scriptReady);
+        }
+
+       
+      }
+
+      
+      function loadScript(src, callback) {
+        scriptIndex++;
+        var s,
+          r,
+          t;
+        r = false;
+        s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.src = src;
+        s.onload = s.onreadystatechange = function() {
+          //console.log( this.readyState ); //uncomment this line to see which ready states are called.
+          if (!r && (!this.readyState || this.readyState == 'complete' || this.readyState=='loaded')) {
+            r = true;
+            callback();
+          }
+        };
+        t = document.getElementsByTagName('script')[0];
+        t.parentNode.insertBefore(s, t);
+      }
+      scriptReady();
+	   document.getElementById('container').style.display = "block";
+	   function bgExitHandler(e) {
+ 
+        }
+
+       //document.getElementById('bg-exit').addEventListener('click', bgExitHandler, false);
+  }
+</script>
+
+  <!--  <script src="js/TweenLite.min.js" type="text/javascript"></script>-->
+   <!-- <script src="js/CSSPlugin.min.js" type="text/javascript"></script>-->
+
+</body>
+
+</html>
